@@ -3,6 +3,8 @@ package week3;
 // Select.java
 // selection sort
 // Source originally derived from Wikipedia "selection sort" page 9/3/2013
+//best: o{n^2}
+//worst: o(n^2)
 
 public class Select {
 

@@ -2,6 +2,8 @@ package week3;
 
 // Bubble.java
 // bubble sort
+//best: o{n}
+//worst: o(n^2)
 
 public class Bubble {
 

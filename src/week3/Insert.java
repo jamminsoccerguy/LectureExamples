@@ -2,6 +2,8 @@ package week3;
 
 // Insert.java
 // insertion sort
+//best: o{n}
+//worst: o(n^2)
 
 public class Insert {
 

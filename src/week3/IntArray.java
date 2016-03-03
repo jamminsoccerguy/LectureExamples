@@ -54,11 +54,11 @@ public class IntArray {
 
         System.out.println();
         System.out.println("Arrays to start--a, b, c,");
-        ArrayPrint.arrayPrint(a);
+        //ArrayPrint.arrayPrint(a);
         System.out.println();
-        ArrayPrint.arrayPrint(b);
+        //ArrayPrint.arrayPrint(b);
         System.out.println();
-        ArrayPrint.arrayPrint(c);
+       // ArrayPrint.arrayPrint(c);
         System.out.println();
 
         System.out.println("a equal a: " + equal(a, a));
@@ -68,20 +68,20 @@ public class IntArray {
 
         System.out.println("Arrays after copy(a, c)--a, b, c,");
         copy(a, c);
-        ArrayPrint.arrayPrint(a);
+        //ArrayPrint.arrayPrint(a);
         System.out.println();
-        ArrayPrint.arrayPrint(b);
+       // ArrayPrint.arrayPrint(b);
         System.out.println();
-        ArrayPrint.arrayPrint(c);
+        //ArrayPrint.arrayPrint(c);
         System.out.println();
 
         System.out.println("Arrays after b = clone(c)--a, b, c,");
         b = clone(c);  // be now gets new space
-        ArrayPrint.arrayPrint(a);
+       // ArrayPrint.arrayPrint(a);
         System.out.println();
-        ArrayPrint.arrayPrint(b);
+       // ArrayPrint.arrayPrint(b);
         System.out.println();
-        ArrayPrint.arrayPrint(c);
+       // ArrayPrint.arrayPrint(c);
         System.out.println();
 
         System.out.println("a equal a: " + equal(a, a));
